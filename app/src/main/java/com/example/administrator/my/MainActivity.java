@@ -3,6 +3,9 @@ package com.example.administrator.my;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        List<String> list=new ArrayList<>();
         for (int i = 0; i < 19; i++) {
 
         }
