@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+        for (int i = 0; i < 19; i++) {
+
+        }
     }
 
     private void initView() {
